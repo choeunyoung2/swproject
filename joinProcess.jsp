@@ -4,6 +4,8 @@
 <%@ page import = "javax.sql.*" %>
 <%@ page import = "javax.naming.*" %>
 <%
+<%--주석입니당--%>
+
 	request.setCharacterEncoding("euc-kr");
 	String id = request.getParameter("id");
 	String pass = request.getParameter("pass");
